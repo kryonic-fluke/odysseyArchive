@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Url is an excellent plave for storing ui state sand an alternative to useSState in some situations ,example open/close panel , currently selected list items . list sorting order , applied list filter 
+
+Url is an excellent place for storing ui state sand an alternative to useSState in some situations ,example open/close panel , currently selected list items . list sorting order , applied list filter 
 
 
 Easy way to store stsate in a global place accessible to all components in the app
