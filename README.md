@@ -31,3 +31,5 @@ to access the value use get on searchparams
 
   example    const navigate= useNavigate()
   navigate("form") , we move to the next page in a imperitive way
+  ---------------------------------------------------------------------------------------------------------------------------------------------------
+  navigate component :inside nested routes , in index route it is used to redirect to a specific page, use replace to move back to the previous page
