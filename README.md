@@ -26,4 +26,8 @@ to access the value use get on searchparams
 
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------
-  
+  programatic navigation : means moving to an url with clicking on any link
+  common usecase is right after submitting a form , you want to move to next page 
+
+  example    const navigate= useNavigate()
+  navigate("form") , we move to the next page in a imperitive way
