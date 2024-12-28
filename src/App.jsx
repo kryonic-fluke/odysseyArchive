@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import Product from "./Pages/Product";
@@ -11,30 +10,14 @@ import CitiList from "./componenets/CityList";
 import CountryList from "./componenets/CountryList";
 import City from "./componenets/City"
 import Form from "./componenets/Form"
+import { Citiescontext,useCity } from "./contexts/Citiescontext";
 
 
-const BASE_URL='http://localhost:9000/cities'
 
 function App() {
-  const [cities, setcities] = useState([])
-  const [isLoading, setIsLoading ] = useState(false)
-
-  useEffect(function(){
-    async function  fetchCities(){
-        try{const res = await fetch(`${BASE_URL}`);
-        setIsLoading(true)
-        const data  = await res.json();
-        setcities(data)}
-        catch{  
-          alert("error in loading cities data");
-        }
-        finally{
-            setIsLoading(false);
-        }
-    }
-    fetchCities();
-  },[])
+  
   return ( 
+    <Citiescontext>
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
@@ -42,15 +25,16 @@ function App() {
         <Route path="price" element={<Pricing />} />
         <Route path="login" element={<Login />} />
         <Route path="app" element={<Applayout />}>
-        <Route index element = {<Navigate replace to ="cities" cities={cities} isLoading={isLoading}/>}/>
-          <Route path="cities" element={<CitiList cities={cities} isLoading={isLoading}/>}/>
+        <Route index element = {<Navigate replace to ="cities" />}/>
+          <Route path="cities" element={<CitiList />}/>
           <Route path="cities/:id" element={<City/>}/>
-          <Route path="country" element={<CountryList cities={cities} isLoading={isLoading}/> }/>
+          <Route path="country" element={<CountryList /> }/>
           <Route path="form" element={<Form/>} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
+    </Citiescontext>
   );
 }
 
