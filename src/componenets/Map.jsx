@@ -5,15 +5,14 @@ import { useState, useEffect } from 'react';
 import { useCity } from '../contexts/Citiescontext';
 import { useGeolocation } from '../hooks/Usegeolocation';
 import Button from "./Button"
+import UseUrlposition from '../hooks/UseUrlposition';
 
 function Map() {
     // Fix typo in state variable name and provide default center position
     const [mapPosition, setMapPosition] = useState([40, 0]);
-    const [searchParams] = useSearchParams();
     const { cities } = useCity();
     const {isLoading:isLoadingposition, position:geoLocationPosition, getPosition}=useGeolocation();
-    const maplat = searchParams.get("lat");
-    const maplng = searchParams.get("lng");
+   const [maplat,maplng]=UseUrlposition();
     
     useEffect(function(){
      if(maplat&&maplat)   setMapPosition([maplat,maplng])
@@ -72,7 +71,7 @@ function DetectClick(){
     const navigate = useNavigate();
 
     useMapEvents({
-        click:e=> navigate(`form?lat=${e.latlng.lat}&${e.latlng.lng}`)
+        click:(e)=> navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`)
     })
 }
 
