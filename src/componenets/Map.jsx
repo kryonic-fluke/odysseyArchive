@@ -62,7 +62,7 @@ function Map() {
 }
 
 function ChangeCenter({position}){
-    const map = useMap()
+    const map = useMap()                  //centers the view of map to clicked location 
     map.setView(position)
     return null;
 }
@@ -71,7 +71,7 @@ function DetectClick(){
     const navigate = useNavigate();
 
     useMapEvents({
-        click:(e)=> navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`)
+        click:(e)=> navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`)   //pass the lat and lng to to the url
     })
 }
 

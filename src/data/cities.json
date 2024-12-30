@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,67 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "06d4",
+      "cityName": "Treuenbrietzen",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-12-30T08:05:18.288Z",
+      "notes": "mkssddc",
+      "position": {
+        "lat": "52.08106958842976",
+        "lng": "12.944757177001685"
+      }
+    },
+    {
+      "id": "bf3c",
+      "cityName": "Treuenbrietzen",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-12-30T08:05:18.288Z",
+      "notes": "mkssddc",
+      "position": {
+        "lat": "52.08106958842976",
+        "lng": "12.944757177001685"
+      }
+    },
+    {
+      "id": "9836",
+      "cityName": "Zorita del Maestrazgo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-30T08:06:37.916Z",
+      "notes": "kmsdkmsdc",
+      "position": {
+        "lat": "40.765206929500096",
+        "lng": "-0.17199017859913515"
+      }
+    },
+    {
+      "id": "c521",
+      "cityName": "Albarracin",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-30T08:16:33.966Z",
+      "notes": "",
+      "position": {
+        "lat": "40.21351130394094",
+        "lng": "-1.5328248588212512"
+      }
+    },
+    {
+      "id": "798d",
+      "cityName": "Plan",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-30T08:19:32.037Z",
+      "notes": "",
+      "position": {
+        "lat": "42.58586478173101",
+        "lng": "0.31311037259103897"
+      }
     }
   ]
 }
