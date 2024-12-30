@@ -33,3 +33,9 @@ to access the value use get on searchparams
   navigate("form") , we move to the next page in a imperitive way
   ---------------------------------------------------------------------------------------------------------------------------------------------------
   navigate component :inside nested routes , in index route it is used to redirect to a specific page, use replace to move back to the previous page
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+About using context api with reducer:
+1 when the states are asynchronous we can do dispatch in a asynchronous funciton.
+2 if the states are symchronous then we can just pass dispatch funciton to through context , tp respective components

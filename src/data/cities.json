@@ -1,27 +1,63 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "id": "3980",
+      "cityName": "Samper de Calanda",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-30T10:55:30.339Z",
+      "notes": "",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
+        "lat": "41.21280739642338",
+        "lng": "-0.3042903289237353"
+      }
     },
     {
-      "id": "06d4",
-      "cityName": "Treuenbrietzen",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2024-12-30T08:05:18.288Z",
-      "notes": "mkssddc",
+      "id": "dbc1",
+      "cityName": "Arras-en-Lavedan",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-12-30T10:55:36.291Z",
+      "notes": "",
       "position": {
-        "lat": "52.08106958842976",
-        "lng": "12.944757177001685"
+        "lat": "42.94113746465481",
+        "lng": "-0.14885699028764465"
+      }
+    },
+    {
+      "id": "7e99",
+      "cityName": "Mandres-en-Barrois",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-12-30T10:55:43.034Z",
+      "notes": "",
+      "position": {
+        "lat": "48.47421559397132",
+        "lng": "5.38972239199024"
+      }
+    },
+    {
+      "id": "fec1",
+      "cityName": "Ardisa",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-30T10:59:04.731Z",
+      "notes": "",
+      "position": {
+        "lat": "42.17968819665963",
+        "lng": "-0.766257691802439"
+      }
+    },
+    {
+      "id": "265a",
+      "cityName": "Laplume",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-12-30T11:00:43.578Z",
+      "notes": "rt",
+      "position": {
+        "lat": "44.15068115978094",
+        "lng": "0.5341522047607362"
       }
     }
   ]
