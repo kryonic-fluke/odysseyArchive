@@ -8,33 +8,33 @@ import Applayout from "./Pages/Applayout";
 import Login from "./Pages/Login";
 import CitiList from "./componenets/CityList";
 import CountryList from "./componenets/CountryList";
-import City from "./componenets/City"
-import Form from "./componenets/Form"
-import { Citiescontext,useCity } from "./contexts/Citiescontext";
-
-
+import City from "./componenets/City";
+import Form from "./componenets/Form";
+import { Citiescontext } from "./contexts/Citiescontext";
+import { AuthProvider } from "./contexts/FakeAtuhContext";
 
 function App() {
-  
-  return ( 
+  return (
+          <AuthProvider>
     <Citiescontext>
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="product" element={<Product />} />
-        <Route path="price" element={<Pricing />} />
-        <Route path="login" element={<Login />} />
-        <Route path="app" element={<Applayout />}>
-        <Route index element = {<Navigate replace to ="cities" />}/>
-          <Route path="cities" element={<CitiList />}/>
-          <Route path="cities/:id" element={<City/>}/>
-          <Route path="country" element={<CountryList /> }/>
-          <Route path="form" element={<Form/>} />
-        </Route>
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="product" element={<Product />} />
+          <Route path="price" element={<Pricing />} />
+          <Route path="login" element={<Login />} />
+          <Route path="app" element={<Applayout />}>
+            <Route index element={<Navigate replace to="cities" />} />
+            <Route path="cities" element={<CitiList />} />
+            <Route path="cities/:id" element={<City />} />
+            <Route path="country" element={<CountryList />} />
+            <Route path="form" element={<Form />} />
+          </Route>
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
     </Citiescontext>
+          </AuthProvider>
   );
 }
 
