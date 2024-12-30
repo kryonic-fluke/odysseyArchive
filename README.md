@@ -39,3 +39,5 @@ to access the value use get on searchparams
 About using context api with reducer:
 1 when the states are asynchronous we can do dispatch in a asynchronous funciton.
 2 if the states are symchronous then we can just pass dispatch funciton to through context , tp respective components
+======================================================================================================================================================
+entire aapp should not be accessible , if the user is not loged in
