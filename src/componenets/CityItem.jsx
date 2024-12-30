@@ -10,11 +10,12 @@ const formatDate = (date) =>
       year: "numeric",  
     }).format(new Date(date));
 function CityItem({city}) {
-    const {currentCity} = useCity()
+    const {currentCity,deleteCity} = useCity()
     const {cityName, emoji, date,id,position}= city;
 
     function handleClick(e){
         e.preventDefault()
+        deleteCity(id)
     }
     return (
         <li >
