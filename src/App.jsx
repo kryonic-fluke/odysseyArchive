@@ -56,7 +56,7 @@ function App() {
     </AuthProvider>
   );
 }
-
+//dome
 export default App;
 
 //nested route is needed  when we need , to controle a part of a ui to be controled by
