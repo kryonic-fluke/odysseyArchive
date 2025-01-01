@@ -19,7 +19,7 @@ function City() {
   // TEMP DATA
   useEffect(function(){
     getCity(id);
-  },[id])
+  },[id,getCity])
     
   const { cityName, emoji, date, notes } = currentCity;
 console.log(currentCity);

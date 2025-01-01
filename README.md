@@ -41,3 +41,18 @@ About using context api with reducer:
 2 if the states are symchronous then we can just pass dispatch funciton to through context , tp respective components
 ======================================================================================================================================================
 entire aapp should not be accessible , if the user is not loged in
+--------------------------------------------------------------------------------------------------------------------------
+the  BUndle and the code spliting  : bunfdle is the entire code that contains th eapp , is sent by the server on request ,bundle by services like vite
+
+Bundle size optimization : through code spliting , splits the enitre bundle into small js files , which can be downloaded as required this process of loading files sequestly is called lazy loading 
+
+==>split the bundle at page level ,loading each page seperately
+
+cmp npm run build creates  bundle that can be hten dyployed in the server
+
+const HomePage = lazy(()=>import("./pages/home") )
+dynamic import function
+
+react suspence api ,suspends components while somethings happens, useually a fallback example spinner suspance encapsulates the entire routes component 
+
+very imprttant feature to inclue in a react app 

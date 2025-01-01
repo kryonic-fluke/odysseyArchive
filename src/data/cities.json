@@ -1,30 +1,6 @@
 {
   "cities": [
     {
-      "id": "3980",
-      "cityName": "Samper de Calanda",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-30T10:55:30.339Z",
-      "notes": "",
-      "position": {
-        "lat": "41.21280739642338",
-        "lng": "-0.3042903289237353"
-      }
-    },
-    {
-      "id": "dbc1",
-      "cityName": "Arras-en-Lavedan",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-12-30T10:55:36.291Z",
-      "notes": "",
-      "position": {
-        "lat": "42.94113746465481",
-        "lng": "-0.14885699028764465"
-      }
-    },
-    {
       "id": "7e99",
       "cityName": "Mandres-en-Barrois",
       "country": "France",
@@ -37,27 +13,39 @@
       }
     },
     {
-      "id": "fec1",
-      "cityName": "Ardisa",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-30T10:59:04.731Z",
+      "id": "08f3",
+      "cityName": "La Roche-Chalais",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-01-01T10:59:49.477Z",
       "notes": "",
       "position": {
-        "lat": "42.17968819665963",
-        "lng": "-0.766257691802439"
+        "lat": "45.15243398477343",
+        "lng": "0.0439453125"
       }
     },
     {
-      "id": "265a",
-      "cityName": "Laplume",
+      "id": "d891",
+      "cityName": "Longue-Jumelles",
       "country": "France",
       "emoji": "🇫🇷",
-      "date": "2024-12-30T11:00:43.578Z",
-      "notes": "rt",
+      "date": "2025-01-01T11:22:04.243Z",
+      "notes": "",
       "position": {
-        "lat": "44.15068115978094",
-        "lng": "0.5341522047607362"
+        "lat": "47.37029542806058",
+        "lng": "-0.13183593750000003"
+      }
+    },
+    {
+      "id": "b7e4",
+      "cityName": "Halifax",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-01-01T11:22:14.648Z",
+      "notes": "",
+      "position": {
+        "lat": "53.64621832411911",
+        "lng": "-1.9995117187500002"
       }
     }
   ]
