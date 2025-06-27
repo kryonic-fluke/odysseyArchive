@@ -2,6 +2,12 @@
 
 A modern travel tracking application that helps you keep track of all the places you've visited around the world. Click on an interactive map to mark cities, add personal notes, and build your own travel diary.
 
+## 🚀 Live Demo
+
+**[🔗 View Live App](odysseycapture.netlify.app)**
+
+*Try the app live and start tracking your travels!*
+
 ## ✨ Features
 
 - **Interactive World Map**: Click anywhere on the map to add a new city to your travel log
@@ -36,7 +42,7 @@ A modern travel tracking application that helps you keep track of all the places
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/worldwise.git
+   git clone https://github.com/lilcodo69/The.git
    cd worldwise
    ```
 
@@ -122,7 +128,16 @@ The JSON Server provides the following endpoints:
 
 ## 📸 Screenshots
 
-<!-- Add screenshots of your app here -->
+### 🗺️ 
+![odesseycapture home page ](home.png)
+*Click anywhere on the map to add a new travel destination*
+
+### 📋 Travel Log && Interactive World Map
+![Main app view](Mainapp.png)
+*View all your visited cities with dates and notes*
+*Click anywhere on the map to add a new travel destination*
+
+
 
 
 ## 🔮 Future Enhancements
