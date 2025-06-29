@@ -129,11 +129,11 @@ The JSON Server provides the following endpoints:
 ## 📸 Screenshots
 
 ### 🗺️ 
-![odesseycapture home page ](home.png)
+![odesseycapture home page ](public/home.png)
 *Click anywhere on the map to add a new travel destination*
 
 ### 📋 Travel Log && Interactive World Map
-![Main app view](Mainapp.png)
+![Main app view](public/Mainapp.png)
 *View all your visited cities with dates and notes*
 *Click anywhere on the map to add a new travel destination*
 
