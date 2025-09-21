@@ -4,7 +4,7 @@ A modern travel tracking application that helps you keep track of all the places
 
 ## 🚀 Live Demo
 
-**[🔗 View Live App]([(https://odysseyarchive.netlify.app/)](https://odysseyarchive.netlify.app/))**
+**[Live App Demo](https://odysseyarchive.netlify.app/))**
 
 *Try the app live and start tracking your travels!*
 
