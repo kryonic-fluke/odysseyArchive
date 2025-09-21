@@ -63,7 +63,7 @@ A modern travel tracking application that helps you keep track of all the places
    ```
    The app will be available at `http://localhost:5173`
 
-## 📝 Available Scripts
+##  Available Scripts
 
 - `npm run dev` - Start the development server
 - `npm run build` - Build the app for production
@@ -71,7 +71,7 @@ A modern travel tracking application that helps you keep track of all the places
 - `npm run server` - Start the JSON Server backend
 - `npm run lint` - Run ESLint to check code quality
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 worldwiseagain/
@@ -100,7 +100,7 @@ worldwiseagain/
 └── vite.config.js     # Vite configuration
 ```
 
-## 🎯 How to Use
+##  How to Use
 
 1. **Explore the Map**: Navigate around the interactive world map
 2. **Add a City**: Click on any location to add it to your travel log
@@ -108,7 +108,7 @@ worldwiseagain/
 4. **View Your Travels**: Check your travel list to see all visited places
 5. **Edit or Delete**: Manage your travel entries as needed
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 The JSON Server provides the following endpoints:
 
@@ -118,7 +118,7 @@ The JSON Server provides the following endpoints:
 - `PUT /cities/:id` - Update a city
 - `DELETE /cities/:id` - Delete a city
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -126,9 +126,9 @@ The JSON Server provides the following endpoints:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🗺️ 
+###  
 ![odesseycapture home page ](public/home.png)
 *Click anywhere on the map to add a new travel destination*
 
@@ -140,7 +140,7 @@ The JSON Server provides the following endpoints:
 
 
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] User authentication and profiles
 - [ ] Cloud data synchronization
@@ -150,17 +150,6 @@ The JSON Server provides the following endpoints:
 - [ ] Offline support with PWA
 - [ ] Import/Export travel data
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Built following Jonas Schmedtmann's React course
-- Map data provided by [OpenStreetMap](https://www.openstreetmap.org/)
-- Icons and UI inspiration from various travel apps
-
----
 
 **Happy Travels!** 🧳✈️
 
