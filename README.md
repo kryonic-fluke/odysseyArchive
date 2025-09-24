@@ -42,7 +42,7 @@ A modern travel tracking application that helps you keep track of all the places
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/lilcodo69/The.git
+   git clone https://github.com/kryonic-fluke/The.git
    cd worldwise
    ```
 
